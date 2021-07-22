@@ -1,6 +1,8 @@
 # Fish species predictor
 <img src="https://s3.ap-southeast-1.amazonaws.com/images.asianage.com/images/aa-Cover-h6hghrab3kclj3g171n66g9u43-20171011195123.Medi.jpeg">
+
 ## 1- Importing the liberires and the data
+
       import pandas as pd
       import numpy as np 
       import matplotlib.pyplot as plt
@@ -48,6 +50,7 @@
       print(nomred_data)
       
 <img width="514" alt="4" src="https://user-images.githubusercontent.com/51120437/126552889-4d31e1dc-ec0d-44ed-ac58-e66e4fdcd0e5.png">
+
 #### 3.2- Categorical to numerical
 
       Y= Y.replace({"Bream": 0, "Roach": 1,
@@ -78,10 +81,12 @@
       sns.boxplot(x= data_prepared['Species'], y= data_prepared['Height'])
       sns.swarmplot(x= data_prepared['Species'], y= data_prepared['Height'])
 <img width="354" alt="7" src="https://user-images.githubusercontent.com/51120437/126553419-c5e8d2c5-4a8e-42f0-b095-3974ead68d7d.png">
-#### By lookint to the plotting we can see that there is 3 Outliers Let's drop them!!!
+
+#### By looking inyto the plotting we can see that there is 3 Outliers Let's drop them!!!
 
 
 <img width="561" alt="Outliers" src="https://user-images.githubusercontent.com/51120437/126553460-43735131-b424-422f-a072-45622ce7ffcc.png">
+
 #### 4.2- Droping outliers
 
 #### 4.2.1- Get the index of the outlier and drop
@@ -104,7 +109,9 @@
       sns.boxplot(x= data_prepared['Species'], y= data_prepared['Width'])
       sns.swarmplot(x= data_prepared['Species'], y= data_prepared['Width'])
 <img width="358" alt="8" src="https://user-images.githubusercontent.com/51120437/126553614-9afc556a-a089-47b7-a32a-df2626258cb7.png">
+
 #### We don't have Outlierssssss  🥳🥳🥳🥳🥳
+
 <img src="https://i2.wp.com/novocom.top/image/bWVkalwaHkWEuZ2lwaHkuY29t/media/3o6ZsXoYhtUlGEyIRa/giphy.gif">
 
 ## 5- Preparing the model and the data for training
