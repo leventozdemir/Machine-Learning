@@ -1,5 +1,5 @@
 # Bondora Peer to Peer Lending Loan
-![intro_wme](https://user-images.githubusercontent.com/51120437/127114935-7f66d452-9141-4853-aef6-a8115bdff022.jpg)
+![intro_wme](https://studentloanhero.com/wp-content/uploads/wage-garnishment-student-loans-1.jpg)
 ## 1- Calling the libraries and the data:
 
       import pandas as pd
